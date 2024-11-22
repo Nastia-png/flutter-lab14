@@ -8,7 +8,7 @@ class NativeCode {
       final String result = await platform.invokeMethod('getStaticString');
       return result;
     } on PlatformException catch (e) {
-      return "Failed to get native string: '${e.message}'.";
+      return "Failed to get native string: '${e.message}'";
     }
   }
 }
