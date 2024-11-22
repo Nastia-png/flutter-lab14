@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'camera_code.dart';
-import 'native_code.dart';
+
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  final NativeCode nativeCode = NativeCode();
 
   @override
   Widget build(BuildContext context) {

@@ -125,7 +125,7 @@ class _CameraAppState extends State<CameraApp> {
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                 ),
-                child: Text('Show Native Data'),
+                child: Text('Show Native String'),
               ),
             ),
           ),
